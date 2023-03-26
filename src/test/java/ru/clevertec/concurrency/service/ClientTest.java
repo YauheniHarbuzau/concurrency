@@ -1,4 +1,4 @@
-package ru.clevertec.concurrency;
+package ru.clevertec.concurrency.service;
 
 import org.junit.jupiter.api.Nested;
 import org.junit.jupiter.api.Test;

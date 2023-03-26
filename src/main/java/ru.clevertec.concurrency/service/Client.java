@@ -1,4 +1,4 @@
-package ru.clevertec.concurrency;
+package ru.clevertec.concurrency.service;
 
 import ru.clevertec.concurrency.entity.Request;
 

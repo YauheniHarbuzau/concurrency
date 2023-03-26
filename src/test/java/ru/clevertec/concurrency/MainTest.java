@@ -1,6 +1,7 @@
 package ru.clevertec.concurrency;
 
 import org.junit.jupiter.api.Test;
+import ru.clevertec.concurrency.service.Client;
 
 import java.util.ArrayList;
 import java.util.stream.IntStream;

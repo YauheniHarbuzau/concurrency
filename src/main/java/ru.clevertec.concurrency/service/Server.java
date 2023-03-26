@@ -1,4 +1,4 @@
-package ru.clevertec.concurrency;
+package ru.clevertec.concurrency.service;
 
 import ru.clevertec.concurrency.entity.Request;
 import ru.clevertec.concurrency.entity.Response;
@@ -58,8 +58,8 @@ public class Server {
     public String listValuesToString(List<Request> requestList) {
         lock.lock();
         StringBuilder result = new StringBuilder();
-        for (int i = 0; i < requestList.size(); i++) {
-            result.append(requestList.get(i).getValue());
+        for (Request request : requestList) {
+            result.append(request.getValue());
         }
         lock.unlock();
         return result.toString();
